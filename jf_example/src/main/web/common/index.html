@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>#(title)</title>
+    <script src="_static/js/vue.js"></script>
+    <style>
+        td,th {
+            border: 1px solid #e2e2e2;
+            padding: 3px 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<h1>当前用户:#(session.user.nickName)</h1>
+<h4>#(msg)</h4>
+
+<table>
+    <tr>
+        <th>编号</th>
+        <th>昵称</th>
+        <th>加入时间</th>
+    </tr>
+    #for(user : userList)
+    <tr>
+        <td>#(user.id)</td>
+        <td>#(user.nick_name)</td>
+        <td>#(user.create_time)</td>
+    </tr>
+    #end
+</table>
+</body>
+</html>
