@@ -21,11 +21,11 @@ Java开发交流群:196187884, 258298887
 **控制器:**
 
 >* JF简洁大方,函数名和@ActionKey都可以作为请求uri.
->*                 Api灵活,setAttr,getSessionAttr随手可用,不像springmvc非得写个HttpServletRequest的形参.
+>*Api灵活,setAttr,getSessionAttr随手可用,不像springmvc非得写个HttpServletRequest的形参.
 >* spring-mvc依赖了hibernate-validate,完美的参数校验机制.
 >* 前台参数到控制器的形参注入,JF没有,但JF有controller.getModel().
 >* @CookieValue,@SessionValue这些注解我宁可不用.搞得函数声明臭长难看.
-***JF vs SpringMvc  ->  SpringMvc略胜一筹***
+>* ***JF vs SpringMvc  ->  SpringMvc略胜一筹***
     
 
 **模板引擎**
@@ -34,7 +34,7 @@ Java开发交流群:196187884, 258298887
 >* 两个巴掌都数的过来, 看一遍就记住
 >* 还有for.count,for.index这样体贴的自带属性. jsp怎么玩?
 >* 通过shareObjec, 可以把任何对象的任意方法交给模板. 不仅仅是view模板, 还有sql模板!
-***JF vs Everything  ->  JF完胜***
+>*  ***JF vs Everything  ->  JF完胜***
 
 
 **拦截器**
@@ -42,7 +42,7 @@ Java开发交流群:196187884, 258298887
 >* Spring提供了前置通知, 后置通知, 环绕通知, 最终通知,异常通知,好像是这五个吧?
 >* 但也增加了切面,切入点,连接点,切点表达式等让人头疼的概念.
 >* 有需求了就是spring好使 , 用不到, 一个前置通知够了
-***JF vs SpringMvc  ->  spring完胜***
+>* ***JF vs SpringMvc  ->  spring完胜***
 
 **数据库访问**
 > Hibernate,Mybatis, 咳咳, 我都没学好,因为太烦了...
@@ -62,9 +62,8 @@ Model和Record存储数据依赖内部的一个map, 天生支持多表联查,天
 亦可使用#if , #for 等方式拼接sql
 
 > Db.find,query,dao.find,query等. 简单易学易配置易理解
-***JF vs Everything  ->  JF完胜***
+> ***JF vs Everything  ->  JF完胜***
 
--
                    
 ---
 ***我做事儿喜欢省事儿,***
