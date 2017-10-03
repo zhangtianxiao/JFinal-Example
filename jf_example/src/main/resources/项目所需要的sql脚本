@@ -1,0 +1,18 @@
+create table t_user
+(
+	id varchar(30) not null
+		constraint t_user_pkey
+			primary key,
+	nick_name varchar(10),
+	pass_word varchar(10),
+	head_shot varchar(40),
+	create_time date,
+	regist_ip varchar(255),
+	last_login_ip varchar(20),
+	last_login_time date,
+	state bigint,
+	account varchar(255)
+);
+INSERT INTO public.t_user (id, nick_name, pass_word, head_shot, create_time, regist_ip, last_login_ip, last_login_time, state, account) VALUES ('u_123', '钟无艳', null, null, '2017-10-03', null, null, null, null, null);
+INSERT INTO public.t_user (id, nick_name, pass_word, head_shot, create_time, regist_ip, last_login_ip, last_login_time, state, account) VALUES ('u_234', '燕追云', null, null, '2017-09-01', null, null, null, null, null);
+INSERT INTO public.t_user (id, nick_name, pass_word, head_shot, create_time, regist_ip, last_login_ip, last_login_time, state, account) VALUES ('u_345', '高渐飞', null, null, '2016-10-04', null, null, null, null, null);

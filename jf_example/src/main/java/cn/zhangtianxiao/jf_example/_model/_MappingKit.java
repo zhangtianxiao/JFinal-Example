@@ -16,11 +16,7 @@ import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 public class _MappingKit {
 
 	public static void mapping(ActiveRecordPlugin arp) {
-		arp.addMapping("t_article", "id", Article.class);
-		arp.addMapping("t_img", "id", Img.class);
-		arp.addMapping("t_session", "id", Session.class);
 		arp.addMapping("t_user", "id", User.class);
-		arp.addMapping("t_user_like", "id", UserLike.class);
 	}
 }
 
