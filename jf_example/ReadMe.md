@@ -1,5 +1,5 @@
 
-## 半个小时, 让你见识Jfinal的可爱之处 ##
+## 半个小时, 让你见识国产第一JavaWeb框架-JFinal的可爱之处 ##
 ---
 
 ***即便你没有读过jfinal-3.x-manual.pdf***
